@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@200;400;600&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+--item1-bg: #F3EED9;
+--brown-clr: #824936;
+--black-color: #222C2A;
+}
+main{
+    padding: 50px 0;
+}
+.container{
+    width: 80%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+.item1{
+    background-color: var(--item1-bg);
+    min-height: 660px;
+    margin: 0 auto;
+    padding: 8em 8em;
+    text-align: center;
+}
+.item1 p:first-child{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+  word-spacing: 1em;
+}
+.item1 p:nth-child(2){
+    font-size: 60px;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    color: var(--brown-clr);
+}
+.item2{
+    margin: 0 auto;
+    padding: 5em 5em;
+    text-align: center;
+}
+.item2 h3{
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    color: var(--brown-clr);
+    margin-bottom: 1em;
+}
+.sub_item2{
+    display: flex;
+    justify-content: space-between;
+}
+.sub_item2 p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    width: 45%;
+    text-align: start;
+    color: var(--black-color);
+}
+.item3{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 5em;
+    background-color:var(--black-color);
+    color: white;
+}
+
+.item3 h3{
+    font-size: 36px;
+    margin-bottom: .5em;
+}
+.item3 p{
+    font-size: 19px;
+}
+.sub_item3{
+    width: 51%;
+}
+.Sunset{
+    width: 45%;
+}
+.item4{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 5em;
+    background-color:var(--brown-clr);
+    color: var(--item1-bg);
+}
+.item4 h3{
+    font-size: 36px;
+    margin-bottom: .5em;
+}
+.item4 p{
+    font-size: 19px;
+}
+.sub_item4{
+    width: 45%;
+}
+
+
+
+
+
+.cards{
+    margin-top: 100px;
+    border: 1px solid black;
+}
+.card_header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: bottom 300ms ease-in, 
+    top 300ms ease-in, 
+    left 300ms ease-in, 
+    right 300ms ease-in, 
+    ;
+}
+.card_header .header_image:hover{
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+}
+.card_title{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;  
+}
+.moreinfo{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    margin-bottom: 10px;
+}
+.lessinfo{
+    position: absolute;
+    bottom: 0;
+    left: 380px;
+    margin-bottom: 10px;
+}
+
